@@ -1,0 +1,10 @@
+{
+  "retailer": "EyeBuyDirect",
+  "source_url": "https://www.eyebuydirect.com/eyeglasses",
+  "collected_at": "2026-09-24",
+  "record_count": 28,
+  "collection_method": "Official public catalogue snapshot",
+  "verified_product_pages": true,
+  "selenium_grid_result": "Access Denied",
+  "note": "Fallback data verified from the retailer's public catalogue. It is not represented as a successful Selenium Grid scrape."
+}

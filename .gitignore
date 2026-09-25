@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+venv/
+.venv/
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Downloaded browser runtimes and driver caches
+.wdm/
+chrome/
+chromedriver/
+se-metadata.json
+
+# Runtime diagnostics (successful datasets remain trackable)
+*.log
+extracted_data/*_diagnostic.html
+extracted_data/*_diagnostic.png
+
+# Local Streamlit settings and secrets
+.streamlit/

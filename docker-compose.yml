@@ -1,0 +1,23 @@
+services:
+  selenium:
+    image: selenium/standalone-chrome:4.48.0-20260905
+    container_name: frames-lens-selenium
+    shm_size: 2gb
+    ports:
+      - "127.0.0.1:4444:4444"
+      - "127.0.0.1:7900:7900"
+    environment:
+      SE_NODE_MAX_SESSIONS: "1"
+      SE_SESSION_REQUEST_TIMEOUT: "120"
+      SE_START_XVFB: "true"
+
+  selenium-firefox:
+    image: selenium/standalone-firefox:4.48.0-20260905
+    container_name: frames-lens-selenium-firefox
+    shm_size: 2gb
+    ports:
+      - "127.0.0.1:4445:4444"
+      - "127.0.0.1:7901:7900"
+    environment:
+      SE_NODE_MAX_SESSIONS: "1"
+      SE_SESSION_REQUEST_TIMEOUT: "120"
